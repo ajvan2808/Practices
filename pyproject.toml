@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "PoetryEnv"
+version = "1"
+description = ""
+authors = ["Hanh Van <vhh2808@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yamllint = "^1.26.3"
+yq = "^2.14.0"
+shyaml = "^0.6.2"
+PyYAML = "^5.0"
+strictyaml = "^1.6.1"
+Django = "^4.0.4"
+
+[tool.poetry.dev-dependencies]
+appmap = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,6 @@
+name: python_app
+packages:
+  - path: todo_list
+  - dist: Django
+    exclude:
+      - django.db

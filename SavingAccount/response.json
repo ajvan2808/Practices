@@ -1,0 +1,33 @@
+{
+  "result": {
+    "account_notes": {},
+    "balances": {},
+    "derived_params": {},
+    "instantiate_workflow_requests": {},
+    "logs": [
+      "created account \"SavingAccount\""
+    ],
+    "posting_instruction_batches": [],
+    "timestamp": "2022-04-15T10:30:42Z"
+  }
+}{
+  "result": {
+    "account_notes": {},
+    "balances": {},
+    "derived_params": {},
+    "instantiate_workflow_requests": {},
+    "logs": [
+      "created 391 scheduled event jobs for account \"SavingAccount\""
+    ],
+    "posting_instruction_batches": [],
+    "timestamp": "2022-04-15T10:30:42Z"
+  }
+}{
+  "error": {
+    "details": [],
+    "grpc_code": 13,
+    "http_code": 500,
+    "http_status": "Internal Server Error",
+    "message": "Something went wrong"
+  }
+}

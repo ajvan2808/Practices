@@ -1,0 +1,87 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JsonStandardCompliance" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="pyjwt" />
+            <item index="1" class="java.lang.String" itemvalue="Flask" />
+            <item index="2" class="java.lang.String" itemvalue="six" />
+            <item index="3" class="java.lang.String" itemvalue="python-dateutil" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E127" />
+          <option value="W292" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N803" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="jwt" />
+          <option value="products.casa_contract.Tside" />
+          <option value="products.casa_contract.Parameter" />
+          <option value="products.casa_contract.*" />
+          <option value="sm1.sm1_casa.RejectedReason" />
+          <option value="sm1.sm1_casa.Rejected" />
+          <option value="sm1.sm1_casa.Tside" />
+          <option value="sm1.sm1_casa.*" />
+          <option value="smart_contract_practice.vault_caller.*" />
+          <option value="smart_contract_practice.sm_contract1.*" />
+          <option value="smart_contract_practice.helper.*" />
+          <option value="smart_contract_practice.sm_contract2.*" />
+          <option value="smart_contract_1.sm_contract2.*" />
+          <option value="smart_contract_2.sm_contract2.*" />
+          <option value="smart_contract_1.sm_contract1.*" />
+          <option value="smart_contract_2.sm_contract3.*" />
+          <option value="smart_contracts.sm_2.*" />
+          <option value="smart_contracts.sm_1.*" />
+          <option value="smart_contracts.service.*" />
+          <option value="smart_contracts.run_sm_contracts.*" />
+          <option value="smart_contracts.sm_3.*" />
+          <option value="smart_contracts.helper.*" />
+          <option value="TestLoanContract.smart_contracts.sm_1.*" />
+          <option value="TestLoanContract.smart_contracts.sm_2.*" />
+          <option value="helper" />
+          <option value="sc_credit.*" />
+          <option value="smart_contracts.sc_credit.*" />
+          <option value="contracts.credit.parameters.*" />
+          <option value="contracts.credit.metadata.*" />
+          <option value="contracts.credit.hooks.post_activate_code.*" />
+          <option value="test.test_simulate.*" />
+          <option value="contracts.credit.hooks.execution_schedules.*" />
+          <option value="contracts.credit.hooks.scheduled_code.*" />
+          <option value="contracts.credit.constants.*" />
+          <option value="contracts.credit.functions.*" />
+          <option value="tmp.smart_contracts_101.*" />
+          <option value="contracts.credit.hooks.pre_posting_code.*" />
+          <option value="contracts.bank.hooks.pre_posting_code.*" />
+          <option value="contracts.casa.hooks.pre_posting_code.*" />
+          <option value="contracts.bank.principal.hooks.pre_posting_code.*" />
+          <option value="contracts.bank.default.hooks.pre_posting_code.*" />
+          <option value="contracts.bank.interest.hooks.pre_posting_code.*" />
+          <option value="contracts.credit.hooks.post_posting_code.*" />
+          <option value="contracts.loan_on_card.main.*" />
+          <option value="contracts.casa.current_account.hooks.post_posting_code.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
